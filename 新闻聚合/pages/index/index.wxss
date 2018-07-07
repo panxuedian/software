@@ -1,0 +1,33 @@
+.topNavigate{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+.navBtn{
+  height: 80rpx;
+  width: 120rpx;
+  font-size: 30rpx;
+  align-items: center;
+  
+}
+.news{
+  margin: 60rpx 20rpx;
+}
+.newsDetail{
+  display: flex;
+  margin: 60rpx 20rpx;
+  border: 1rpx solid black;
+  box-shadow: 2rpx 2rpx grey;
+  border-radius: 40rpx;
+}
+.newsImg{
+  display: flex;
+  border-radius: 40rpx;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class='topNavigate'>
+  <scroll-view scroll-x="true" wx:for="{{newsClass}}" wx:key="*this">
+    <button class='navBtn' bindtap='requestNews' data-index='{{index}}'>{{newsClass[index]}}</button>
+  </scroll-view>
+</view>
+
+<view class='news'>
+  <block wx:for='{{newsData}}' wx:key="*this" >
+  <view class='newsDetail' bindtap='gotoWeb' data-url='{{newsData[index].url}}'>
+    <view>{{newsData[index].title}}</view>
+    <text>{{newsData[index].date}}{{newsData[index].author_name}}</text>
+   
+    <image class='newsImg' wx:if='{{newsData[index].thumbnail_pic_s}}' src='{{newsData[index].thumbnail_pic_s}}' /> 
+    
+    
+    </view>
+  </block>
+</view>

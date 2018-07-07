@@ -1,0 +1,28 @@
+/* pages/first/first.wxss */
+
+.title {
+  color: #f96;
+  font-size: 60rpx;
+  font-weight: bold;
+}
+
+.canvas{
+  position: relative;
+
+}
+/* .canvas text:nth-child(1){
+  position: absolute;
+  top: 387rpx;
+  left: 130rpx;
+  font-weight: bold;
+
+
+}
+.canvas text:nth-child(2){
+
+  position: absolute;
+  top: 287rpx;
+  left: 230rpx;
+  font-weight: bold;
+
+} */
