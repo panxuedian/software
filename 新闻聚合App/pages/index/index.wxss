@@ -1,0 +1,24 @@
+.topNavigate{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+.navBtn{
+  height: 100rpx;
+  width: 400rpx;
+}
+.news{
+  margin: 60rpx 20rpx;
+}
+.newsDetail{
+  margin: 60rpx 20rpx;
+  border: 2rpx solid black;
+  box-shadow: 2rpx 2rpx grey;
+  border-radius: 40rpx;
+}
+.newsImg{
+  display: flex;
+  border-radius: 40rpx;
+}

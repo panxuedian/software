@@ -1,0 +1,19 @@
+<view class='topNavigate'>
+  <block wx:for="{{newsClass}}" wx:key="*this">
+    <button class='navBtn' bindtap='requestNews' data-index='{{index}}'>{{newsClass[index]}}</button>
+  </block>
+</view>
+
+<view class='news'>
+  <block wx:for='{{newsData}}' wx:key="*this" >
+  <view class='newsDetail' bindtap='gotoWeb' data-url='{{newsData[index].url}}'>
+    <view>{{newsData[index].title}}</view>
+    <text>{{newsData[index].date}}{{newsData[index].author_name}}</text>
+    <view class='newsImg'>
+    <image wx:if='{{newsData[index].thumbnail_pic_s}}' src='{{newsData[index].thumbnail_pic_s}}' /> 
+    <image wx:if='{{newsData[index].thumbnail_pic_s02}}' src='{{newsData[index].thumbnail_pic_s02}}' />
+    <image wx:if='{{newsData[index].thumbnail_pic_s03}}' src='{{newsData[index].thumbnail_pic_s03}}' />
+    </view>
+    </view>
+  </block>
+</view>
