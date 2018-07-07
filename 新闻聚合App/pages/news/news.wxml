@@ -1,0 +1,6 @@
+<!--pages/news/news.wxml-->
+<view class='search'>
+  <icon type='search'></icon>
+  <input placeholder="搜索新闻" type='text' confirm-type="search" />
+</view>
+

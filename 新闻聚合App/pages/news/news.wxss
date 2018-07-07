@@ -1,0 +1,10 @@
+/* pages/news/news.wxss */
+.search{
+  width: 500rpx;
+  height: 20rpx;
+  display:flex;
+}
+.search #search_img{
+  height:20rpx;
+  width: 100%; 
+}

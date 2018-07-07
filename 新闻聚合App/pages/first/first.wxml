@@ -1,0 +1,23 @@
+<!--pages/first/first.wxml-->
+<view class="container">
+  <text class='title' >欢迎来到好看新闻</text>
+ <canvas class='canvas'
+  style="width: 747rpx; height: 1065rpx;border:1px ;position:absolute;top:0;left:0; solid black;"
+  canvas-id="first"
+  disable-scroll=true
+  bindtouchstart="bindtouchstart"
+  bindtouchmove="bindtouchmove"
+  bindtouchend="bindtouchend"
+  bindlongpress="bindlongpress"
+  >
+  <!-- <text>天下事</text>
+  <text>美食</text>
+  <text>大学生</text>
+  <text>体育</text>
+  <text>职场</text>
+  <text>娱乐</text>
+  <text>访谈</text> -->
+  
+  </canvas>
+
+</view>

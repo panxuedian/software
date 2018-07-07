@@ -1,13 +1,32 @@
 {
   "pages":[
+    "pages/first/first",
     "pages/index/index",
-    "pages/web/web",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/news/news",
+    "pages/web/web"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "新闻大全",
+    "navigationBarTitleText": "好看新闻",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/first/first",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "新闻一览"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的"
+    }
+    
+    ]
   }
 }

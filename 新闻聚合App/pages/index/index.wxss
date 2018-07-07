@@ -6,19 +6,28 @@
   overflow-wrap: break-word;
 }
 .navBtn{
-  height: 100rpx;
-  width: 400rpx;
+  height: 80rpx;
+  width: 120rpx;
+  font-size: 30rpx;
+  align-items: center;
+  
 }
 .news{
   margin: 60rpx 20rpx;
 }
 .newsDetail{
+  display: flex;
   margin: 60rpx 20rpx;
-  border: 2rpx solid black;
+  border: 1rpx solid black;
   box-shadow: 2rpx 2rpx grey;
   border-radius: 40rpx;
 }
 .newsImg{
   display: flex;
   border-radius: 40rpx;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
 }
