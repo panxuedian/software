@@ -5,8 +5,9 @@
     "pages/my/my",
     "pages/news/news",
     "pages/web/web",
-    "pages/MYNEWS/MYNEWS",
-    "pages/history/history"
+    "pages/history/history",
+    "pages/myhistory/myhistory",
+    "pages/collect/collect"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -23,10 +24,7 @@
       "pagePath": "pages/index/index",
       "text": "新闻一览"
     },
-    {
-      "pagePath": "pages/MYNEWS/MYNEWS",
-      "text": "新闻2"
-    },
+   
     {
       "pagePath": "pages/my/my",
       "text": "我的"

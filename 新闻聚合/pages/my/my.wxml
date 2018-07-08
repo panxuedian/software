@@ -9,11 +9,11 @@
   </view>
 </view>
 <view class='btn'>
-  <button>收藏</button>
-  <button>历史</button>
+  <button bindtap='collect'>收藏</button>
+  <button bindtap='myhistory'>历史</button>
 </view>
 
-<view class='love' bindtap='myhistory'> 查看我的浏览统计</view>
+<view class='love' bindtap='history'> 查看我的浏览统计</view>
 
 
 

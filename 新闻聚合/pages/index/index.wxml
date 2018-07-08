@@ -10,7 +10,7 @@
 <view class='news'>
   <block wx:for='{{newsData}}' wx:key="*this" >
   <view class='newsDetail' bindtap='gotoWeb' data-url='{{newsData[index].url}}'>
-    <text style='margin:15rpx'>{{newsData[index].date}}{{newsData[index].author}}</text>
+    <text style='margin:15rpx'>{{newsData[index].date}}\n{{newsData[index].author_name}}</text>
     <view style='margin:15rpx'>{{newsData[index].title}}</view>
    
     <image class='newsImg' wx:if='{{newsData[index].thumbnail_pic_s}}' src='{{newsData[index].thumbnail_pic_s}}' /> 

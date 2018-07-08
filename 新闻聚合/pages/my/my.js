@@ -105,9 +105,23 @@ Page({
   onShareAppMessage: function () {
   
   },
-  myhistory:function(){
+  // 浏览记录
+  history:function(){
     wx.navigateTo({
       url: '../history/history' ,
     })
+  },
+  // 历史记录
+  myhistory: function(){
+    wx.navigateTo({
+      url: '../myhistory/myhistory',
+    })
+  },
+  collect:function(){
+    wx.navigateTo({
+      url: '../collect/collect',
+    })
   }
+
+
 })

@@ -20,7 +20,8 @@ App({
     newsClass: ['头条', '社会', '国内', '国际', '娱乐', '体育', '军事', '科技', '财经', '时尚'],
     url: null,
     currentPage: "top",
-    count: [{ name: "头条", count: 0 }, { name: "社会", count: 0 }, { name: "国内", count: 0 }, { name: "国际", count: 0 }, { name: "娱乐", count: 0 }, { name: "体育", count: 0 }, { name: "军事", count: 0 }, { name: "科技", count: 0 }, { name: "财经", count: 0 }, { name: "时尚", count: 0 }]
+    count: [{ name: "头条", count: 0 }, { name: "社会", count: 0 }, { name: "国内", count: 0 }, { name: "国际", count: 0 }, { name: "娱乐", count: 0 }, { name: "体育", count: 0 }, { name: "军事", count: 0 }, { name: "科技", count: 0 }, { name: "财经", count: 0 }, { name: "时尚", count: 0 }],
+    history:[],
     
   }
 })

@@ -1,0 +1,5 @@
+<!--pages/myhistory/myhistory.wxml-->
+<view class='web' wx:for="{{history}}" wx:key="*this">
+  <text>{{history[index]}}</text>
+</view>
+

@@ -33,6 +33,7 @@ Page({
   },
   gotoWeb: function (e) {
     app.globalData.url = e.currentTarget.dataset.url;
+    app.globalData.history.push(e.currentTarget.dataset.url);
     wx.navigateTo({
       url: '../web/web?url=' + e.currentTarget.dataset.url,
     })
