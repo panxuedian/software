@@ -5,7 +5,8 @@
     "pages/my/my",
     "pages/news/news",
     "pages/web/web",
-    "pages/MYNEWS/MYNEWS"
+    "pages/MYNEWS/MYNEWS",
+    "pages/history/history"
   ],
   "window":{
     "backgroundTextStyle":"light",

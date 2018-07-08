@@ -48,6 +48,7 @@ Page({
   bannerClick: function (e) {
     //刷新新闻类目
     var dataset = e.currentTarget.dataset;
+    console.log(e);
     for (var i in bannerList) {
       bannerList[i].show = false;
     }

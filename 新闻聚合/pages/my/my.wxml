@@ -13,13 +13,8 @@
   <button>历史</button>
 </view>
 
-<view class='love'> 我的浏览统计</view>
+<view class='love' bindtap='myhistory'> 查看我的浏览统计</view>
 
-<view wx:for="{{count}}" wx:for-index="idx" wx:for-item="itemName" wx:key="*this">
-<block wx:if="{{itemName.count}}">
-  {{itemName.name}}:{{itemName.count}}次
-</block>
-  
-</view>
+
 
 

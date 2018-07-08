@@ -1,12 +1,13 @@
 // pages/my/my.js
 const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    count: app.globalData.count,
+    
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -103,5 +104,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  myhistory:function(){
+    wx.navigateTo({
+      url: '../history/history' ,
+    })
   }
 })

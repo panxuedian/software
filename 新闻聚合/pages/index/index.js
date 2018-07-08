@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    
     newsClass: app.globalData.newsClass,
     pinyinClass: ['top', 'shehui', 'guonei', 'guoji', 'yule', 'tiyu', 'junshi', 'keji', 'caijing', 'shishang'],
     currentPage: "top",
@@ -64,7 +65,7 @@ Page({
       url: 'http://v.juhe.cn/toutiao/index',
       data: {
         type: '' + _this.data.currentPage,
-        key: 'f5e21c92705efd1e3d3521f8c836ea82'
+        key: 'b97433bc76ef632a5aab8afa65692db6'
       },
       success: function (res) {
         _this.setData({

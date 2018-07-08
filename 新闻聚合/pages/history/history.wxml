@@ -1,0 +1,7 @@
+<!--pages/history/history.wxml-->
+
+<view wx:for="{{count}}" wx:for-index="idx" wx:for-item="itemName" wx:key="*this">
+<block wx:if="{{itemName.count}}">
+  {{itemName.name}}:{{itemName.count}}次
+</block>
+</view>

@@ -1,16 +1,27 @@
 .topNavigate{
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  width: 100%;
-  overflow-wrap: break-word;
+   background: #ffffff;
+    
+    position: fixed;
+    top: -1rpx;
+    z-index: 20;
+    overflow: auto;
+    white-space:nowrap;
 }
-.navBtn{
-  height: 80rpx;
-  width: 120rpx;
+.topNavigate_view{
+   font-size: 30rpx;
+    padding-left: 3rpx;
+    padding-right: 3rpx;
+    text-align: center;
+    display: inline-block;
+    width: 90rpx;
+}
+.topNavigate_view text{
   font-size: 30rpx;
-  align-items: center;
-  
+    font-family: '黑体','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
+.select {
+    border-bottom: 4rpx solid #3dace9;
 }
 .news{
   margin: 60rpx 20rpx;

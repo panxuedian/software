@@ -1,9 +1,11 @@
 <!--index.wxml-->
-<view class='topNavigate'>
-  <scroll-view scroll-x="true" wx:for="{{newsClass}}" wx:key="*this">
-    <button class='navBtn' bindtap='requestNews' data-index='{{index}}'>{{newsClass[index]}}</button>
+
+  <scroll-view class="topNavigate" scroll-x="true" >
+  <view wx:for="{{newsClass}}"   class="topNavigate_view" wx:key="*this">
+    <text data-index="{{index}}" bindtap='requestNews' >{{newsClass[index]}}</text>
+    </view>
   </scroll-view>
-</view>
+
 
 <view class='news'>
   <block wx:for='{{newsData}}' wx:key="*this" >
