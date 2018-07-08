@@ -2,10 +2,10 @@
   "pages":[
     "pages/first/first",
     "pages/index/index",
-    "pages/logs/logs",
     "pages/my/my",
     "pages/news/news",
-    "pages/web/web"
+    "pages/web/web",
+    "pages/MYNEWS/MYNEWS"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -21,6 +21,10 @@
     {
       "pagePath": "pages/index/index",
       "text": "新闻一览"
+    },
+    {
+      "pagePath": "pages/MYNEWS/MYNEWS",
+      "text": "新闻2"
     },
     {
       "pagePath": "pages/my/my",

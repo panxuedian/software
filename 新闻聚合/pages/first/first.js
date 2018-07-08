@@ -31,6 +31,8 @@ Page({
 
       console.log("头条");
       app.globalData.currentPage="top";
+      app.globalData.count[0].count = app.globalData.count[0].count+1;
+      
       wx.switchTab({
         url: '../index/index',
       })
@@ -40,6 +42,7 @@ Page({
 
       console.log("军事");
       app.globalData.currentPage = "junshi";
+      app.globalData.count[6].count = app.globalData.count[6].count + 1;
       wx.switchTab({
         url: '../index/index',
       })
@@ -49,6 +52,7 @@ Page({
 
       console.log("国际");
       app.globalData.currentPage = "guoji";
+      app.globalData.count[3].count = app.globalData.count[3].count + 1;
       wx.switchTab({
         url: '../index/index',
       })
@@ -57,6 +61,7 @@ Page({
 
       console.log("体育");
       app.globalData.currentPage = "tiyu";
+      app.globalData.count[5].count = app.globalData.count[5].count + 1;
       wx.switchTab({
         url: '../index/index',
       })
@@ -65,6 +70,7 @@ Page({
 
       console.log("财经");
       app.globalData.currentPage = "caijing";
+      app.globalData.count[8].count = app.globalData.count[8].count + 1;
       wx.switchTab({
         url: '../index/index',
       })
@@ -72,6 +78,7 @@ Page({
 
       console.log("娱乐");
       app.globalData.currentPage = "yule";
+      app.globalData.count[4].count = app.globalData.count[4].count + 1;
       wx.switchTab({
         url: '../index/index',
       })
@@ -80,6 +87,7 @@ Page({
 
       console.log("时尚");
       app.globalData.currentPage = "shishang";
+      app.globalData.count[9].count = app.globalData.count[9].count + 1;
       wx.switchTab({
         url: '../index/index',
       })

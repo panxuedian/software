@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    count: app.globalData.count,
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')

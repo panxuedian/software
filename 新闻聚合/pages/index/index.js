@@ -20,7 +20,7 @@ Page({
       url: 'https://v.juhe.cn/toutiao/index',
       data: {
         type: '' + currentPage,
-        key: 'f5e21c92705efd1e3d3521f8c836ea82'
+        key: 'b97433bc76ef632a5aab8afa65692db6'
       },
       success: function (res) {
         // console.log(res.data)
